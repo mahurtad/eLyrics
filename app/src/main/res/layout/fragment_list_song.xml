@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lySwipeRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/gridViewSongs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:clickable="false"
+        android:columnWidth="@dimen/size_width_cell"
+        android:gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:horizontalSpacing="4dip"
+        android:numColumns="auto_fit"
+        android:padding="4dip"
+        android:scrollbars="vertical"
+        android:verticalSpacing="4dip" />
+
+</android.support.v4.widget.SwipeRefreshLayout>
+
+<ProgressBar
+android:id="@+id/google_progress"
+android:layout_width="50dp"
+android:layout_height="50dp"
+android:layout_gravity="center"
+
+android:layout_centerInParent="true" />
+
+    </RelativeLayout>

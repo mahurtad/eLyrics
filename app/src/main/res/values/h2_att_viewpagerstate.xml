@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="H2ViewPagerState">
+        <attr name="colorState" format="color" />
+        <attr name="colorNormalState" format="color" />
+        <attr name="heightItem" format="float" /><attr name="numberItem" format="integer" />
+        <attr name="widthItem" format="float" />
+        
+    </declare-styleable>
+
+</resources>

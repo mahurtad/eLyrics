@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_height_cell_youtube"
+    android:orientation="horizontal"
+    card_view:cardCornerRadius="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dip"
+       >
+
+        <ImageView
+            android:id="@+id/imgeYoutubePreView"
+            android:layout_width="112dip"
+            android:layout_height="112dip"
+            android:src="@android:color/holo_red_light" />
+
+            <TextView
+                android:id="@+id/song_title"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="8dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="fjsdakfjsdkdad ARWR   RQWQ     RQ  RQ RQ  R Q R QRWQ  RR  QRQ RWDFAgGGSCXZZX "
+                android:textSize="18sp"
+                android:layout_alignTop="@+id/imgeYoutubePreView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_toRightOf="@+id/imgeYoutubePreView"
+                android:layout_toEndOf="@+id/imgeYoutubePreView"
+                android:layout_above="@+id/singers" />
+
+            <TextView
+                android:id="@+id/singers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:lines="1"
+                android:text="Youtube"
+                android:textSize="14dp"
+                android:layout_alignBottom="@+id/imgeYoutubePreView"
+                android:layout_alignLeft="@+id/song_title"
+                android:layout_alignStart="@+id/song_title" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+

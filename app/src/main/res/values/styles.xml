@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <!-- Set AppCompat’s color theming attrs -->
+
+        <item name="colorPrimary">@color/bg_actionbar_normal</item>
+        <item name="colorPrimaryDark">@color/bg_actionbar_bold</item>
+        <item name="windowActionBar">false</item>
+        <item name="searchViewStyle">@style/MySearchViewStyle</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+
+    </style>
+
+</resources>

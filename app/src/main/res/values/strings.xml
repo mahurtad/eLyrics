@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eLyrics</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_section1">Music Lyrics </string>
+    <string name="title_section2">Video Lyrics </string>
+    <string name="title_section3">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Search&#8320;</string>
+    <string  name="error_network">Can\'t connect</string>
+    <string  name="tap_to_retry">Tap to Retry</string>
+    <string name="copy_lyrics">Copied lyrics</string>
+
+</resources>

@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+
+
+<!-- for menu -->
+    <dimen name="slide_menu_width">240dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="slide_menu_height">48dp</dimen>
+    <dimen name="padding_item_menu_top">8dp</dimen>
+    <dimen name="padding_item_menu_bottom">8dp</dimen>
+    <dimen name="padding_item_menu_left">16dp</dimen>
+    <dimen name="padding_item_menu_right_min">56dp</dimen>
+    <dimen name="padding_item_menu_right">16dp</dimen>
+    <dimen name="margin_item_icon_text">12dp</dimen>
+    <dimen name="size_item_icon">32dp</dimen>
+    
+    <!--song cell -->
+    <dimen name="size_width_cell">120dip</dimen>
+    <dimen name="size_btn_favorite">48dip</dimen>
+
+    <!-- song detail -->
+    <dimen name="size_image_single_view">120dip</dimen>
+    <dimen name="size_height_cell_youtube">120dip</dimen>
+</resources>
